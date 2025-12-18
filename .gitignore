@@ -2,48 +2,18 @@
 *.exe
 *.out
 *.app
-
-# Объектные файлы
 *.o
-*.obj
 
-# Файлы сборки
+# Папки сборки
 build/
-*.make
-Makefile
-
-# IDE файлы
-.vscode/
-.idea/
-*.sln
-*.vcxproj*
-*.user
-
-# Временные файлы
-*.tmp
-*.temp
-
-# Файлы зависимостей
-*.d
+googletest/
 
 # Системные файлы
 .DS_Store
 Thumbs.db
 
-# Google Test
-googletest/
-
-# Входные/выходные файлы тестов
-input.txt
-test_input.txt
-output.txt
-
-# Компилированные тесты
-my_tests.exe
-laba4.exe
-run_tests.exe
-simple_test.exe
-gtest_tests.exe
-
-# Логи
-*.log
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
